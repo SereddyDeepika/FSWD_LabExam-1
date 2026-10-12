@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.app h1 {
+  color: #1e3a8a;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.student {
+  width: 400px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+  text-align: left;
+}
+
+.student:hover {
+  transform: translateY(-4px);
+}
+
+.student h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.student p {
+  padding: 10px 5px;
+  margin: 0;
+  font-size: 16px;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.student p:last-child {
+  border-bottom: none;
+}
+
+.student b {
+  color: #111827;
+}
